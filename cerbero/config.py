@@ -39,11 +39,11 @@ CONFIG_EXT = 'cbc'
 USER_CONFIG_DIR = os.path.expanduser('~/.cerbero')
 USER_CONFIG_FILENAME = 'cerbero.%s' % CONFIG_EXT
 USER_CONFIG_FILE = os.path.join(USER_CONFIG_DIR, USER_CONFIG_FILENAME)
-DEFAULT_GIT_ROOT = 'https://gitlab.freedesktop.org/gstreamer'
+DEFAULT_GIT_ROOT = 'https://github.com/NeuroServo-com/gstreamer.git'
 DEFAULT_ALLOW_PARALLEL_BUILD = True
 DEFAULT_PACKAGER = 'Default <default@change.me>'
 CERBERO_UNINSTALLED = 'CERBERO_UNINSTALLED'
-DEFAULT_MIRRORS = ['https://gstreamer.freedesktop.org/src/mirror']
+DEFAULT_MIRRORS = []
 RUST_TRIPLE_MAPPING = {
     (Platform.ANDROID, Architecture.ARM64): 'aarch64-linux-android',
     (Platform.ANDROID, Architecture.ARMv7): 'armv7-linux-androideabi',
